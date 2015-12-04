@@ -60,29 +60,31 @@ function WhyController() {
         'left': this.scroller.css('left'),
         'diameter': this.scroller.css('width') };
     this.scrollerSettings['animation1'] = {'time': 500};
-    this.scrollerSettings['animation2'] = {'time': 0};
+    this.scrollerSettings['animation2'] = {'time': 500};
     this.scrollerSettings['animation1']['on_props'] = {
-        'top': '0',
-        'left': '0',
-        'width': '100%',
-        'height': '100%',
-        'box-shadow': 'none',
         'border-radius': '0',
         'background-color': color_controller.green_variants[1],
         'z-index': 1000,
         'transition': transitionHelper(this.spinnerSettings['animation1']['time'])};
     this.scrollerSettings['animation1']['off_props'] = {
+        'border-radius': '50%',
+        'background-color': color_controller.green,
+        'z-index': '1',
+        'transition': transitionHelper(this.spinnerSettings['animation1']['time']) };
+    this.scrollerSettings['animation2']['on_props'] = {
+        'top': '0',
+        'left': '0',
+        'width': '100%',
+        'height': '100%',
+        'box-shadow': 'none',
+        'transition': transitionHelper(this.spinnerSettings['animation1']['time'])};
+    this.scrollerSettings['animation2']['off_props'] = {
         'top': this.scrollerSettings['defaults']['top'],
         'left': this.scrollerSettings['defaults']['left'],
         'width': this.scrollerSettings['defaults']['diameter'],
         'height': this.scrollerSettings['defaults']['diameter'],
         'box-shadow': '0 0 10px 0 ' + color_controller.shadow_color,
-        'border-radius': '50%',
-        'background-color': color_controller.green,
-        'z-index': '1',
-        'transition': transitionHelper(this.spinnerSettings['animation1']['time']) };
-    this.scrollerSettings['animation2']['on_props'] = {};
-    this.scrollerSettings['animation2']['off_props'] = {};
+        'transition': transitionHelper(this.spinnerSettings['animation2']['time']) };
 
 }
 
