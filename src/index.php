@@ -119,7 +119,7 @@
             </div>
         </div>
         <div id="more-examples" class="green layer1">
-            <h3>Want more?  Send us an email before and we'll be happy to provide you with more examples of our work!</h3>
+            <h3>Want more?  Send us an email and we'll be happy to provide you with more examples of our work!</h3>
         </div>
         <div id="contact">
             <h3>We Want To Hear From You!</h3>
