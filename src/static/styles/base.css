@@ -79,9 +79,12 @@ body {
     padding: 7px 0;
     text-align: center; }
     body #navigation > a {
-      margin: 0 15px;
-      border: none;
+      padding: 0 2em;
+      border-left: 1px solid #dbf7a9;
+      border-bottom: none;
       font-size: 150%; }
+      body #navigation > a:last-of-type {
+        border-right: 1px solid #dbf7a9; }
   body #about {
     margin-bottom: 1.5em;
     padding: 0 10%; }
@@ -113,7 +116,7 @@ body {
           background: #81c408;
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8); }
         body #why > div > div > h3, body #why > div > div p {
-          display: block;
+          display: none;
           margin: 1.5em 10%;
           text-align: left;
           color: #8a0049;
@@ -130,5 +133,35 @@ body {
       body #why > div:nth-of-type(4) > div {
         top: 8em;
         left: 74.5vw; }
+  body #examples {
+    margin-bottom: 1.5em;
+    padding: 0 20%; }
+    body #examples > h3 {
+      text-align: center; }
+    body #examples > div {
+      display: block;
+      clear: both;
+      height: 8em;
+      width: 100%;
+      margin: 1em 0;
+      padding: 1em 0;
+      background-color: #f1f1f1;
+      border-radius: 1em; }
+      body #examples > div > div {
+        margin-top: -1em;
+        height: 10em;
+        width: 15em; }
+      body #examples > div > h3 {
+        font-weight: 500; }
+      body #examples > div:nth-of-type(odd) {
+        padding-right: 1em; }
+        body #examples > div:nth-of-type(odd) > div {
+          float: left;
+          margin-right: 2em; }
+      body #examples > div:nth-of-type(even) {
+        padding-left: 1em; }
+        body #examples > div:nth-of-type(even) > div {
+          float: right;
+          margin-left: 2em; }
 
 /*# sourceMappingURL=base.css.map */

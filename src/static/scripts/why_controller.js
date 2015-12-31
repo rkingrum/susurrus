@@ -6,6 +6,7 @@ $(document).ready(function() {
     why_controller = new WhyController();
 
     why_controller.spinner.click(function() { why_controller.spinnerClick(); });
+    why_controller.reverseSpinner.click( function() { why_controller.reverseSpinnerClick(); });
     why_controller.scroller.click(function() { why_controller.scrollerClick(); });
 });
 
@@ -53,6 +54,47 @@ function WhyController() {
         'border-bottom-left-radius': '50%',
         'transition': transitionHelper(this.spinnerSettings['animation2']['time']) };
 
+    this.reverseSpinner = $('.reverse_spinner');
+    this.reverseSpinnerSettings = {};
+    this.reverseSpinnerSettings['defaults'] = {
+        'top': this.reverseSpinner.css('top'),
+        'left': this.reverseSpinner.css('left'),
+        'diameter': this.reverseSpinner.css('width') };
+    this.reverseSpinnerSettings['animation1'] = {'time': 500};
+    this.reverseSpinnerSettings['animation2'] = {'time': 300};
+    this.reverseSpinnerSettings['animation1']['on_props'] = {
+        'border-top-right-radius': 0,
+        'border-bottom-left-radius': 0,
+        'background-color': color_controller.green_variants[1],
+        'z-index': 1000,
+        'transform': 'rotate(-360deg)',
+        'transition': transitionHelper(this.reverseSpinnerSettings['animation1']['time']) };
+    this.reverseSpinnerSettings['animation1']['off_props'] = {
+        'border-top-right-radius': '50%',
+        'border-bottom-left-radius': '50%',
+        'background-color': color_controller.green,
+        'z-index': 1,
+        'transform': 'rotate(0)',
+        'transition': transitionHelper(this.reverseSpinnerSettings['animation1']['time']) };
+    this.reverseSpinnerSettings['animation2']['on_props'] = {
+        'top': '0',
+        'left': '0',
+        'width': '100%',
+        'height': '100%',
+        'box-shadow': 'none',
+        'border-top-left-radius': 0,
+        'border-bottom-right-radius': 0,
+        'transition': transitionHelper(this.reverseSpinnerSettings['animation2']['time']) };
+    this.reverseSpinnerSettings['animation2']['off_props'] = {
+        'top': this.reverseSpinnerSettings['defaults']['top'],
+        'left': this.reverseSpinnerSettings['defaults']['left'],
+        'width': this.reverseSpinnerSettings['defaults']['diameter'],
+        'height': this.reverseSpinnerSettings['defaults']['diameter'],
+        'box-shadow': '0 0 10px 0 ' + color_controller.shadow_color,
+        'border-top-left-radius': '50%',
+        'border-bottom-right-radius': '50%',
+        'transition': transitionHelper(this.reverseSpinnerSettings['animation2']['time']) };
+
     this.scroller = $('.scroller');
     this.scrollerSettings = {};
     this.scrollerSettings['defaults'] = {
@@ -85,7 +127,6 @@ function WhyController() {
         'height': this.scrollerSettings['defaults']['diameter'],
         'box-shadow': '0 0 10px 0 ' + color_controller.shadow_color,
         'transition': transitionHelper(this.spinnerSettings['animation2']['time']) };
-
 }
 
 WhyController.prototype.spinnerClick = function() {
@@ -93,6 +134,14 @@ WhyController.prototype.spinnerClick = function() {
         why_controller.deactivate('spinner');
     } else {
         why_controller.activate('spinner');
+    }
+};
+
+WhyController.prototype.reverseSpinnerClick = function() {
+    if (this.currently_active == 'reverseSpinner') {
+        why_controller.deactivate('reverseSpinner');
+    } else {
+        why_controller.activate('reverseSpinner');
     }
 };
 
@@ -114,6 +163,7 @@ WhyController.prototype.activate = function(to_activate) {
 
     setTimeout(function() {
         obj.css(settings['animation2']['on_props']);
+        obj.find('*').show();
 
         setTimeout(function() {
             self.currently_active = to_activate;

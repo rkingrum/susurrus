@@ -19,7 +19,11 @@
             <h2>Experts in Web Development and Design</h2>
         </div>
         <div id="navigation" class="dark-pink layer1">
-            <a href="#">Links</a>
+            <!-- Formatted this way to prevent spacing issues -->
+            <a href="#">Home
+            </a><a href="#">Blog
+            </a><a href="#">Contact
+            </a>
         </div>
         <div id="about">
             <h3>About Us</h3>
@@ -71,7 +75,7 @@
             </div>
             <div>
                 <h3>Content</h3>
-                <div class="fancy layer1">
+                <div class="reverse_spinner layer1">
                     <!-- TODO: Add typing code -->
                     <h3>Words That Resonate</h3>
                     <p>
@@ -89,6 +93,29 @@
                         done.  We would never send something to you that we wouldn't be proud of using ourselves.
                     </p>
                 </div>
+            </div>
+        </div>
+        <div id="examples">
+            <h3>Examples</h3>
+            <div>
+                <div id="example-one" class="green layer1"></div>
+                <h4>PurpleWall</h4>
+                <p>An Online Interior Design Platform aiming to make interior design accessible and easy for all.</p>
+            </div>
+            <div>
+                <div id="example-two" class="green layer1"></div>
+                <h4>Holmes Energy</h4>
+                <p>Cloud software providing utility analytics for both industrial and home use.</p>
+            </div>
+            <div>
+                <div id="example-three" class="green layer1"></div>
+                <h4>MikeBelzer.com</h4>
+                <p>Personal website for animator Mike Belzer.</p>
+            </div>
+            <div>
+                <div id="example-four" class="green layer1"></div>
+                <h4>For Us, The Living</h4>
+                <p>Personal blog for web developer Robert Ingrum.</p>
             </div>
         </div>
     </body>
