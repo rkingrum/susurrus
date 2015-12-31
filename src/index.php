@@ -118,5 +118,45 @@
                 <p>Personal blog for web developer Robert Ingrum.</p>
             </div>
         </div>
+        <div id="more-examples" class="green layer1">
+            <h3>Want more?  Send us an email before and we'll be happy to provide you with more examples of our work!</h3>
+        </div>
+        <div id="contact">
+            <h3>We Want To Hear From You!</h3>
+            <p>
+                If you're interested in our services or have feedback regarding our site, please contact us here!  We'd
+                love to hear from you and strive to respond to all emails within one business day (hopefully less!).
+                If you'd prefer a more intimate conversation, just sent along your phone number and we'll give you a
+                call as soon as possible.  Thank you!
+            </p>
+
+            <div id="email_form">
+                <label>Name:</label>
+                <input type="text" id="email_name" placeholder="ex: John Smith" />
+
+                <label>Email:</label>
+                <input type="text" id="email_address" placeholder="ex: jSmith@gmail.com" />
+
+                <label>Phone:</label>
+                <input type="text" id="email_phone" placeholder="ex: (000) 123-4567" />
+
+                <label>Subject:</label>
+                <select id="email_subject">
+                    <option value="" selected disabled>Select One</option>
+                    <option value="inquiry">Inquire About Services</option>
+                    <option value="feedback">Feedback About Site</option>
+                    <option value="career">Apply for Our Team</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>Message:</label>
+                <textarea id="email_message" placeholder="ex: Can you send me mock-up for my website?"></textarea>
+
+                <button id="email_send">Send</button>
+            </div>
+        </div>
+        <div id="footer" class="dark-pink layer1">
+            <p>This website was designed by For Us, The Living.  Do not use without prior permission.</p>
+        </div>
     </body>
 </html>

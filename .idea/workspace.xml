@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a672671-3978-410d-ab9c-f58594527d87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forustheliving" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.php" afterPath="$PROJECT_DIR$/src/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/scripts/why_controller.js" afterPath="$PROJECT_DIR$/src/static/scripts/why_controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/styles/base.css" afterPath="$PROJECT_DIR$/src/static/styles/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/styles/base.css.map" afterPath="$PROJECT_DIR$/src/static/styles/base.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/styles/base.sass" afterPath="$PROJECT_DIR$/src/static/styles/base.sass" />
@@ -32,54 +28,64 @@
     <favorites_list name="ForUsTheLiving" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4340949">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="color_controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/scripts/color_controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="why_controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/scripts/why_controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-              <folding>
-                <element signature="e#6965#7246#0" expanded="true" />
-                <element signature="e#7081#7206#0" expanded="true" />
-                <element signature="e#7594#7888#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/styles/base.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.52">
-              <caret line="139" column="55" selection-start-line="139" selection-start-column="55" selection-end-line="139" selection-end-column="55" />
-              <folding>
-                <element signature="e#476#1047#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.99648505">
+                  <caret line="148" column="56" selection-start-line="148" selection-start-column="56" selection-end-line="148" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="color_controller.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/static/scripts/color_controller.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="why_controller.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/static/scripts/why_controller.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#6965#7246#0" expanded="true" />
+                    <element signature="e#7081#7206#0" expanded="true" />
+                    <element signature="e#7594#7888#0" expanded="true" />
+                    <marker date="1451588810122" expanded="true" signature="2538:2690" placeholder="{...}" />
+                    <marker date="1451588810122" expanded="false" signature="6326:6505" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="base.sass" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/static/styles/base.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.8594025">
+                  <caret line="282" column="25" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#476#1047#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -976,12 +982,12 @@
       <workItem from="1448748576657" duration="3801000" />
       <workItem from="1449263747820" duration="4934000" />
       <workItem from="1451335930226" duration="4193000" />
-      <workItem from="1451587448057" duration="3824000" />
+      <workItem from="1451587448057" duration="7692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31856000" />
+    <option name="totallyTimeSpent" value="35724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1059,6 +1065,8 @@
             <element signature="e#6965#7246#0" expanded="true" />
             <element signature="e#7081#7206#0" expanded="true" />
             <element signature="e#7594#7888#0" expanded="true" />
+            <marker date="1451588810122" expanded="true" signature="2538:2690" placeholder="{...}" />
+            <marker date="1451588810122" expanded="false" signature="6326:6505" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1107,6 +1115,8 @@
             <element signature="e#6965#7246#0" expanded="true" />
             <element signature="e#7081#7206#0" expanded="true" />
             <element signature="e#7594#7888#0" expanded="true" />
+            <marker date="1451588810122" expanded="true" signature="2538:2690" placeholder="{...}" />
+            <marker date="1451588810122" expanded="false" signature="6326:6505" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1145,6 +1155,8 @@
             <element signature="e#6965#7246#0" expanded="true" />
             <element signature="e#7081#7206#0" expanded="true" />
             <element signature="e#7594#7888#0" expanded="true" />
+            <marker date="1451588810122" expanded="true" signature="2538:2690" placeholder="{...}" />
+            <marker date="1451588810122" expanded="false" signature="6326:6505" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1183,6 +1195,8 @@
             <element signature="e#6965#7246#0" expanded="true" />
             <element signature="e#7081#7206#0" expanded="true" />
             <element signature="e#7594#7888#0" expanded="true" />
+            <marker date="1451588810122" expanded="true" signature="2538:2690" placeholder="{...}" />
+            <marker date="1451588810122" expanded="false" signature="6326:6505" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1243,25 +1257,27 @@
             <element signature="e#6965#7246#0" expanded="true" />
             <element signature="e#7081#7206#0" expanded="true" />
             <element signature="e#7594#7888#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/styles/base.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.52">
-          <caret line="139" column="55" selection-start-line="139" selection-start-column="55" selection-end-line="139" selection-end-column="55" />
-          <folding>
-            <element signature="e#476#1047#0" expanded="false" />
+            <marker date="1451588810122" expanded="true" signature="2538:2690" placeholder="{...}" />
+            <marker date="1451588810122" expanded="false" signature="6326:6505" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4340949">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.99648505">
+          <caret line="148" column="56" selection-start-line="148" selection-start-column="56" selection-end-line="148" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/styles/base.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8594025">
+          <caret line="282" column="25" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+          <folding>
+            <element signature="e#476#1047#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
