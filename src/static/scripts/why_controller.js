@@ -163,7 +163,8 @@ WhyController.prototype.activate = function(to_activate) {
 
     setTimeout(function() {
         obj.css(settings['animation2']['on_props']);
-        obj.find('*').show();
+        obj.find('> *').css('display', 'block');
+        obj.find('> *').show();
 
         setTimeout(function() {
             self.currently_active = to_activate;
@@ -191,6 +192,7 @@ WhyController.prototype.deactivate = function(to_deactivate) {
             }
 
             obj.removeAttr('style');
+            obj.find('> *').removeAttr('style');
         }, settings['animation1']['time']);
     }, settings['animation2']['time']);
 };
