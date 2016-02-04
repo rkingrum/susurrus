@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>For Us, The Living - Consulting</title>
+        <title>Susurrus - Consulting</title>
 
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic' rel='stylesheet' type='text/css'>
@@ -12,22 +12,58 @@
         <script type="text/javascript" src="static/libs/jquery/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="static/scripts/color_controller.js"></script>
         <script type="text/javascript" src="static/scripts/why_controller.js"></script>
+        <script type="text/javascript" src="static/scripts/about_expander.js"></script>
     </head>
     <body>
         <div id="splash" class="green">
-            <h1>For Us, The Living</h1>
-            <h2>Experts in Web Development and Design</h2>
+            <h1>SUSURRUS</h1>
+            <h2>Bringing Development and Design to Life</h2>
         </div>
         <div id="navigation" class="dark-pink layer1">
             <!-- Formatted this way to prevent spacing issues -->
             <a href="#">Home
+            </a><a href="#">About Us
             </a><a href="#">Blog
             </a><a href="#">Contact
             </a>
         </div>
         <div id="about">
             <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor rhoncus, volutpat sem id, ornare turpis. Suspendisse at rhoncus quam. Integer consequat blandit bibendum. Maecenas eget aliquam mi. Vestibulum imperdiet enim nunc, eget pulvinar neque efficitur vel. Aliquam malesuada ante tortor, ut ultricies turpis bibendum ac. Duis turpis dui, ullamcorper vitae dui sit amet, sodales porta sapien. Curabitur sit amet elit nec lectus ornare tempor. Donec laoreet fermentum turpis sed mollis. Donec et fringilla nulla, ac pretium nisl. Vestibulum maximus ante nec sagittis ornare. Vivamus sodales, nulla ut aliquam laoreet, quam purus euismod lacus, et scelerisque nunc tellus a leo. Praesent at nulla et urna viverra tempor a at leo. Donec sed quam sed tellus iaculis tempus et quis lacus. Pellentesque fermentum arcu ut nulla malesuada, non scelerisque orci ornare.</p>
+            <p>
+                The beauty of nature is never complete without susurrus: the whisper of wind through columns of rock,
+                the murmur of water through a stream, and the rustling of leaves far above.  At Susurrus Consulting, we
+                strive to bring the same level of completion and beauty to your business or project.  Our goal is to
+                take your idea and bring it to life.
+            </p>
+            <p>
+                Our designers are experienced with taking an existing brand to the next level, or starting from scratch
+                and building a truly unique experience.  Since we customize our services for each customer, you can
+                feel confident that you will always be more than just a number on a spreadsheet.  We believe in
+                building real, personal relationships so that we can fundamentally understand and exceed your specific
+                needs.
+            </p>
+            <p>
+                Design is just a small part of the equation though.  Our developers are just as involved in every
+                decision, ensuring that everything works together behind the scenes.  We know how daunting code can be,
+                so our developers work hard at making sure that you understand the big picture and how it affects your
+                project.  We also prioritize documentation and strict coding standards, so if you choose to work on our
+                code in the future, it should be accessible and easy to use.
+            </p>
+            <p>
+                After designing and developing your product, you'll need to make sure that it reaches all the right
+                people.  Our marketing team understands exactly what it takes to make you the next big thing.  From SEO
+                to social media campaigns, we've stayed up with the most current trends and standards so you don't have
+                to.  Our priority is bringing your business to life and there's no better way to do that than to foster
+                an active and vibrant community.
+            </p>
+            <p>
+                Finding the best team for the job is hard, so we've taken that step so that you can focus on the big
+                feature.  Whether you're convinced or need a bit more information, <a href="#">send us an email</a>!
+                We would love to hear from you and figure out if we'd be a good fit.  And even if things don't seem
+                quite right, we'll be able to point you in the right direction so that you can bring your vision to
+                life.
+            </p>
+            <div id="expand_about">Read More</div>
         </div>
         <div id="why" class="pink layer1">
             <h2>Why Choose Us?</h2>
