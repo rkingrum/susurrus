@@ -70,9 +70,28 @@ body {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8); }
   body #splash {
     display: block;
+    position: relative;
     width: 100%;
     padding: 15% 0 5%;
     text-align: center; }
+    body #splash > * {
+      position: relative;
+      z-index: 5; }
+    body #splash > div {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-size: cover;
+      background-position: center center;
+      z-index: 2; }
+    body #splash > #bg_layer1 {
+      background-image: url("/static/images/splash_layer_1.png"); }
+    body #splash > #bg_layer2 {
+      background-image: url("/static/images/splash_layer_2.png"); }
+    body #splash > #bg_layer3 {
+      background-image: url("/static/images/splash_layer_3.png"); }
   body #navigation {
     display: block;
     width: 100%;
@@ -105,7 +124,7 @@ body {
       right: 0;
       padding-top: 2em;
       height: 1.5em;
-      background: repeating-linear-gradient(transparent 0%, #fbfffd 50%, #fbfffd 100%);
+      background: repeating-linear-gradient(transparent 0%, #f6faf8 50%, #f1f5f3 100%);
       text-align: center;
       font-weight: 400;
       font-size: 0.8em;

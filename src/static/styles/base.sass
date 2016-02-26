@@ -120,9 +120,33 @@ body
 
   #splash
     display: block
+    position: relative
     width: 100%
     padding: 15% 0 5%
     text-align: center
+
+    > *
+      position: relative
+      z-index: 5
+
+    > div
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      background-size: cover
+      background-position: center center
+      z-index: 2
+
+    > #bg_layer1
+      background-image: url('/static/images/splash_layer_1.png')
+
+    > #bg_layer2
+      background-image: url('/static/images/splash_layer_2.png')
+
+    > #bg_layer3
+      background-image: url('/static/images/splash_layer_3.png')
 
   #navigation
     display: block
@@ -162,7 +186,7 @@ body
       right: 0
       padding-top: 2em
       height: 1.5em
-      background: repeating-linear-gradient(transparent 0%, $off_white 50%, $off_white 100%)
+      background: repeating-linear-gradient(transparent 0%, ($off_white - 5) 50%, ($off_white - 10) 100%)
       text-align: center
       font-weight: 400
       font-size: .8em

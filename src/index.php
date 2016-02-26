@@ -1,6 +1,9 @@
 <html>
     <head>
-        <title>Susurrus - Consulting</title>
+        <title>Susurrus - Bringing your ideas to life</title>
+
+        <!-- Favicon Icon -->
+        <link rel="shortcut icon" href="favicon.png"
 
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic' rel='stylesheet' type='text/css'>
@@ -16,8 +19,11 @@
     </head>
     <body>
         <div id="splash" class="green">
+            <div id="bg_layer1"></div>
+            <div id="bg_layer2"></div>
+            <div id="bg_layer3"></div>
             <h1>SUSURRUS</h1>
-            <h2>Bringing Development and Design to Life</h2>
+            <h2>Breathing live into Development and Design</h2>
         </div>
         <div id="navigation" class="dark-pink layer1">
             <!-- Formatted this way to prevent spacing issues -->
@@ -31,7 +37,7 @@
             <h3>About Us</h3>
             <p>
                 The beauty of nature is never complete without susurrus: the whisper of wind through columns of rock,
-                the murmur of water through a stream, and the rustling of leaves far above.  At Susurrus Consulting, we
+                the murmur of water through a stream, and the rustling of leaves far above.  At Susurrus, we
                 strive to bring the same level of completion and beauty to your business or project.  Our goal is to
                 take your idea and bring it to life.
             </p>
@@ -192,7 +198,7 @@
             </div>
         </div>
         <div id="footer" class="dark-pink layer1">
-            <p>This website was designed by For Us, The Living.  Do not use without prior permission.</p>
+            <p>This website was designed by Susurrus.  Do not use without prior permission.</p>
         </div>
     </body>
 </html>

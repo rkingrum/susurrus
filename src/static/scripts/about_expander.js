@@ -5,10 +5,12 @@ $(document).ready(function() {
     expand_about.click(function() {
         if (about_div.hasClass('expanded')) {
             about_div.removeClass('expanded');
-            expand_about.html('Read More')
+            expand_about.html('Read More');
         } else {
             about_div.addClass('expanded');
-            expand_about.html('Read Less')
+            expand_about.html('Read Less');
+
+            $('html, body').animate({scrollTop: $('#navigation').offset().top}, 500);
         }
     });
 });
