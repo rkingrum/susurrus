@@ -16,6 +16,7 @@
         <script type="text/javascript" src="static/scripts/color_controller.js"></script>
         <script type="text/javascript" src="static/scripts/why_controller.js"></script>
         <script type="text/javascript" src="static/scripts/about_expander.js"></script>
+        <script type="text/javascript" src="static/scripts/parallax_controller.js"></script>
     </head>
     <body>
         <div id="splash" class="green">

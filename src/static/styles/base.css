@@ -84,13 +84,15 @@ body {
       left: 0;
       right: 0;
       background-size: cover;
-      background-position: center center;
+      background-position: center 0;
       z-index: 2; }
     body #splash > #bg_layer1 {
       background-image: url("/static/images/splash_layer_1.png"); }
     body #splash > #bg_layer2 {
+      background-size: auto 120%;
       background-image: url("/static/images/splash_layer_2.png"); }
     body #splash > #bg_layer3 {
+      background-size: auto 140%;
       background-image: url("/static/images/splash_layer_3.png"); }
   body #navigation {
     display: block;
